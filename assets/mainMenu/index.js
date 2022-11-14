@@ -1,13 +1,7 @@
-System.register("chunks:///_virtual/menuScene", [], function () {
-  'use strict';
-
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/mainMenu",[],(function(){"use strict";return{execute:function(){}}}));
 
 (function(r) {
-  r('virtual:///prerequisite-imports/menuScene', 'chunks:///_virtual/menuScene'); 
+  r('virtual:///prerequisite-imports/mainMenu', 'chunks:///_virtual/mainMenu'); 
 })(function(mid, cid) {
     System.register(mid, [cid], function (_export, _context) {
     return {
